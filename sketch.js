@@ -19,8 +19,8 @@ function setup() {
 function draw() 
 {
   background(30);
-  v1 = input1.value()
-  v2 = input2.value()
+  v1 = parseInt(input1.value())
+  v2 = parseInt(input2.value())
 }
 
 function addition(){
